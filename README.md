@@ -166,7 +166,7 @@ print(f"\nDetection complete! Full video saved at: {video_path}")
 
 <img width="1293" height="741" alt="image" src="https://github.com/user-attachments/assets/3aa2bab6-a20e-4b17-8c0a-c50ae7eeace0" />
 
-
+<img width="1251" height="726" alt="image" src="https://github.com/user-attachments/assets/567ee569-7771-4b57-ae2f-ccccbcb587ae" />
 
 
 ### Insights
