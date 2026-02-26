@@ -39,7 +39,7 @@ Python: VS code,
 ### Analysis
 **Process of Object detection in video**
 
-First,  we downlaod the video with good resolution then we download and upload the pre trained model `yolov3.pt` under the models folder. We run the code as mentioned below.
+First,  we downlaod the video with good resolution then we download and upload the pre trained model [yolov3.pt](https://github.com/OlafenwaMoses/ImageAI/releases/tag/3.0.0-pretrained) under the models folder. We run the code as mentioned below.
 
 We install the necessary packages for object detetcion in video.
 
