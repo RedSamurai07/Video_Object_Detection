@@ -30,7 +30,7 @@ The project successfully demonstrates a complete end-to-end workflow for video a
 
 ### Data Structure 
 
-[Video link](https://rr1---sn-5jucgv5qc5oq-cagy.googlevideo.com/videoplayback?expire=1772045808&ei=kPGeaanpHc3PkucPx6232A8&ip=82.26.208.222&id=o-APwWhXE0OUG6ZSjgDJpIDAq76DpH2i0qrxwcvodwbXzr&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&rms=au%2Cau&bui=AVNa5-yResFzwEHYx15DrPDmAJyvBip5oO2MGkIhQ5-bvuAo9-Ut6yhAZZm-vyURKcTbCLad270M5CZl&spc=6dlaFIfWCePQLd5B0nsoofsT7HJXl9J5QUcTcmsqdJrmvINMOvZW9plcuyBRyBFbeGc&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&cnr=14&ratebypass=yes&dur=84.195&lmt=1762410982655185&fexp=51552689,51565115,51565681,51580968&c=ANDROID&txp=5538534&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AJEij0EwRAIgYAtuil5iwnM36msdaz0obCTw9Yd6C7NdKFzOdjscQDgCIHRSP9xCJhkl092Vt1O_OhdfQdIvOGAUISocB18N5f_c&redirect_counter=1&rm=sn-q4fe6y7e&rrc=104&req_id=d02b9bb370a1a3ee&cms_redirect=yes&cmsv=e&cps=0&ipbypass=yes&met=1772024215,&mh=l8&mip=49.207.137.152&mm=31&mn=sn-5jucgv5qc5oq-cagy&ms=au&mt=1772023753&mv=m&mvi=1&pl=21&lsparams=cps,ipbypass,met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAMO1Bm4CTgmGtLW4gNCD6TmuJy10SevLFF0uIIh3XVYDAiEAxPHjxmIKvEVCfdjk5RmcJ9lfALCj3eSL8Mgr8JdyeAA%3D)
+[Video link](https://youtu.be/9zW_CKWb3oM?si=hn1AJ9ikzB1Ltou2)
 
 ### Tools
 
@@ -69,7 +69,7 @@ INPUT_VIDEO = "input_video.mp4"
 OUTPUT_PATH = "output/detected_video"
 
 cap = cv2.VideoCapture(INPUT_VIDEO)
-VIDEO_FPS    = int(cap.get(cv2.CAP_PROP_FPS))          # ✅ Reads real FPS from your video
+VIDEO_FPS    = int(cap.get(cv2.CAP_PROP_FPS))          
 TOTAL_FRAMES = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
 DURATION_SEC = TOTAL_FRAMES // VIDEO_FPS
 cap.release()
@@ -159,10 +159,12 @@ print(f"\nDetection complete! Full video saved at: {video_path}")
 ```
 <img width="509" height="298" alt="image" src="https://github.com/user-attachments/assets/201ca7ce-8714-4173-9710-a278193620d6" />
 <img width="501" height="478" alt="image" src="https://github.com/user-attachments/assets/15de1181-7c48-4ce0-91b1-f57734dc3e4a" />
-
-
+<img width="434" height="499" alt="image" src="https://github.com/user-attachments/assets/e18caecd-b670-4e1e-b5fa-a869f10a316a" />
+<img width="567" height="497" alt="image" src="https://github.com/user-attachments/assets/5a7e88a7-bbb1-4076-8c6c-dca8671f10ae" />
 
 **Video output:**
+
+<img width="1293" height="741" alt="image" src="https://github.com/user-attachments/assets/3aa2bab6-a20e-4b17-8c0a-c50ae7eeace0" />
 
 
 
